@@ -181,7 +181,7 @@ color: rgb(125, 233, 168);
     margin-left: 80px;
 }
 }
-@media(max-width : 300px){
+@media(max-width : 375px){
 .btns button{
     grid-template-columns:repeat(2, 1fr);
     grid-template-rows: auto auto auto ; 
