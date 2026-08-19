@@ -35,6 +35,13 @@
     let persons =Number(dat2.value) ;
     let cus = Number(Custom.value) / 100;
       
+    
+        if(persons === 0){
+          zero.style.display= "block";
+          dat2.style.border = "1px solid red";
+          return;
+        }
+
     res1.innerHTML ="$" + (bill*cus / persons).toFixed(2) ;
     res2.innerHTML ="$" + (bill +  (bill * cus / persons)).toFixed(2) ;
    })
