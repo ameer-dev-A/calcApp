@@ -172,8 +172,9 @@ color: rgb(125, 233, 168);
     .res button{
         margin-left: 70px;
     }
-    .logo{margin-left: 30px;
+    .logo{margin-left: 0px;
     transform: translateY(0px); 
+    width 100%;
 }   
 .num .zero{
     margin-left: 180px;
