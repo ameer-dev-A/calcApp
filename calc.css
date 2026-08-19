@@ -160,7 +160,10 @@ color: rgb(125, 233, 168);
       height: 400px;
 
     }
-
+.btns {
+    grid-template-columns:repeat(2, auto);
+    grid-template-rows: auto auto auto ; 
+    }
     .res{
        width: 95%;
        
