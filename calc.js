@@ -1,7 +1,7 @@
   let btns = document.querySelectorAll(".btns button");
     let dat1= document.querySelector(".dat1");
     let dat2 = document.querySelector(".dat2");
-    let Cust = document.getElementById("#custom");
+    let Cust = document.getElementById("custom");
     let rest = document.querySelector(".rest");
     let zero = document.querySelector(".zero");
 
