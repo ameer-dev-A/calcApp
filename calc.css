@@ -167,7 +167,7 @@ color: rgb(125, 233, 168);
     .res button{
         margin-left: 70px;
     }
-    .logo{margin-left: 100px;
+    .logo{margin-left: 30px;
     transform: translateY(0px); 
 }   
 .num .zero{
@@ -186,8 +186,8 @@ color: rgb(125, 233, 168);
       grid-template-rows: auto auto auto;
     }
     .btns button{
-        width: 200px;
-        margin-left: 50px
+        width: 150px;
+        margin-left: 10px
     }
 
 }
