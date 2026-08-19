@@ -1,0 +1,190 @@
+*{
+    border: 0px;
+}
+
+:root{
+--Green400: hsl(172, 54%, 50%);
+--Green900: hsl(183, 100%, 15%);
+--Grey500: hsl(186, 14%, 43%);
+--Grey400: hsl(184, 14%, 56%);
+--Grey200: hsl(185, 41%, 84%);
+--Grey50: hsl(189, 47%, 97%);
+--White: hsl(0, 100%, 100%);
+}
+input{
+    text-align: right;
+    font-size: large;
+    color: var(--Green900);
+    font-weight: bold;
+}
+button{
+    cursor: pointer;
+}
+p{
+    font-family:'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+body{
+    background-color: var(--Green400);
+}
+.logo{
+    text-align: center;
+    transform: translateY(100px); 
+}
+.calc{
+    transform: translateY(100px);        
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 300px;
+    background-color: var(--White);
+    display: flex;
+    padding: 25px;
+    border-radius: 20px;
+}
+.dat{
+    width: 350px;
+    margin-right: 20px;
+}
+.dat1,.dat2{
+    width: 95%;
+    height: 30px;    
+    background-color: var(--Grey200);
+}
+.dat1::placeholder{
+    background-image: url("images/icon-dollar.svg");
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 350px;
+}
+.dat2::placeholder{
+    background-image: url("images/icon-person.svg");
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 350px;
+}
+.dat1:hover{
+    border: 1px solid var(--Green400);
+    background-color: var(--Grey200);
+}
+.btns{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+.btns input{
+    background-color: var(--Grey200);
+}
+.btns input::placeholder{
+    text-align: center;
+}
+.btns button {
+   font-size: 20px;
+   width:100px;
+   background-color: var(--Green900);
+   color: var(--White);
+   padding: 5px;
+}
+.btns button:hover{
+    background-color:aquamarine;;
+    color: var(--Green900);
+}
+.btns input{
+width: 95px;
+   font-size: 20px;
+   background-color: var(--Grey200);
+}
+.num{display: flex;}
+.num .zero{
+    margin-left: 75px;
+    color: red;
+    display: none;
+}
+.res{
+    width: 400px;
+    background-color: var(--Green900);
+    color: var(--White);
+    padding: 20px;
+    border-radius: 20px;
+}
+.res1,.res2{
+    display: flex;
+    padding: 5px;
+    width: 100%;
+}
+.res span{
+  color: rgb(125, 233, 168);
+  font-size: small;
+}
+.res1 h1{
+margin-left: 150px;
+color: rgb(125, 233, 168);
+}
+.res2 h1{
+    margin-left: 185px;
+color: rgb(125, 233, 168);
+}
+.res button{
+    width: 60%;
+    height: 40px;
+    font-size: 15pxpx;
+    font-weight: bold;
+    background-color: rgb(125, 233, 168);
+    color: var(--Green900);
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.res button:hover{ 
+    background-color: aquamarine;
+}
+.btns button.active {
+    background-color: aquamarine;;
+    color: var(--Green900);
+}
+.attribution { font-size: 0.6875rem; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media(max-width : 500px){
+    .calc{
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+    .dat{
+      width: 100%;
+      height: 400px;
+
+    }
+
+    .res{
+       width: 90%;
+       
+    }
+    .res button{
+        margin-left: 100px;
+    }
+    .logo{margin-left: 300px;
+}   
+.num .zero{
+    margin-left: 350px;
+}
+.res1 h1{
+    margin-left: 385px;
+}
+.res2 h1{
+    margin-left: 420px;
+}
+}
+@media(max-width : 300px){
+.btns{
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto auto;
+    }
+    .btns button{
+        width: 200px;
+        margin-left: 50px
+    }
+
+}
