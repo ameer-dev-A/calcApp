@@ -1,7 +1,7 @@
   let btns = document.querySelectorAll("button");
     let dat1= document.querySelector(".dat1");
     let dat2 = document.querySelector(".dat2");
-    let Custom = document.getElementById("custom");
+    let Cust = document.getElementById("custom");
     let rest = document.querySelector(".rest");
     let zero = document.querySelector(".zero");
 
@@ -30,10 +30,10 @@
      }) 
     })
     
-   Custom.addEventListener("input", () => {
+   Cust.addEventListener("input", () => {
         let bill =Number(dat1.value) ;
     let persons =Number(dat2.value) ;
-    let cus = Number(Custom.value) / 100;
+    let cus = Number(Cust.value) / 100;
       
     
         if(persons === 0){
