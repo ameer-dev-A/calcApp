@@ -148,6 +148,7 @@ color: rgb(125, 233, 168);
 
 @media(max-width : 500px){
     .calc{
+        width:400px;
         height: 700px;
         display: flex;
         flex-direction: column;
