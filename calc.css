@@ -184,7 +184,8 @@ color: rgb(125, 233, 168);
       grid-template-rows: auto auto auto;
     }
     .btns button{
-        width: 200px;
+        width: 500px;
+Height 350px;
         margin-left: 50px
     }
 
