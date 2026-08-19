@@ -182,9 +182,9 @@ color: rgb(125, 233, 168);
 }
 }
 @media(max-width : 300px){
-.btns{
-      grid-template-columns: auto auto;
-      grid-template-rows: auto auto auto;
+.btns button{
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows: auto auto auto ; 
     }
     .btns button{
         width: 150px;
