@@ -149,7 +149,7 @@ color: rgb(125, 233, 168);
 @media(max-width : 500px){
     .calc{
     transform: translateY(10px); 
-        width:250px;
+        width:280px;
         height: 700px;
         display: flex;
         flex-direction: column;
@@ -167,17 +167,17 @@ color: rgb(125, 233, 168);
     .res button{
         margin-left: 70px;
     }
-    .logo{margin-left: 200px;
+    .logo{margin-left: 100px;
     transform: translateY(0px); 
 }   
 .num .zero{
-    margin-left: 200px;
+    margin-left: 180px;
 }
 .res1 h1{
-    margin-left: 385px;
+    margin-left: 60px;
 }
 .res2 h1{
-    margin-left: 420px;
+    margin-left: 80px;
 }
 }
 @media(max-width : 300px){
